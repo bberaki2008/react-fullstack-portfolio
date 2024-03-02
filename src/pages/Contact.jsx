@@ -65,7 +65,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="username"
-          id="userName" className="form-control"
+          id="userName" className="form-control" required
         />
         </div>
         <div className="form-group">
@@ -77,7 +77,7 @@ export default function Contact() {
           type="email"
           placeholder="email"
           id="email"
-          className="form-control"
+          className="form-control" required
         />
       </div>
       <div className="form-group">
@@ -89,6 +89,7 @@ export default function Contact() {
           type="text"
           id="message"
           className="form-control"
+          required
         />
         </div>
       
