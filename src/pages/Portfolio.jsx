@@ -1,19 +1,40 @@
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+        <section class="page-section" id="work">
+      <h1>Portfolio</h1>
+            <div class="flex-container">
+                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item1">
+                    <div>
+                        <h3>Fullstack Developer</h3>
+                        <span>HTML, JavaScript, SQL</span>
+                    </div>
+                </a>
+                <a class="flex-item" target="_blank" href="https://bberaki2008.github.io/bereketPortfolio/" id="item2">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <span>HTML, CSS and JavaScript</span>
+                    </div>
+                </a>
+                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item3">
+                    <div>
+                        <h3>Data Analyst</h3>
+                        <span>Excel, Python</span>
+                    </div>
+                </a>
+                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item4">
+                    <div>
+                        <h3>Research Associate</h3>
+                        <span>Research, data collection</span>
+                    </div>
+                </a>
+                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item5">
+                    <div>
+                        <h3>Placeholder</h3>
+                        <span>Placeholder...</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
   );
 }
