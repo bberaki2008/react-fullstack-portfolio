@@ -1,8 +1,10 @@
 import Project from '../components/Project';
 export default function Portfolio() {
   return (
+    <div className="container text-left mt-3">
+        <h1>Portfolio</h1>
         <section class="page-section" id="work">
-      <h1>Portfolio</h1>
+
             <div class="flex-container">
                 <Project profileLink ="https://bespoke-capybara-7e98b6.netlify.app/"  itemNumber="item1" profession="Fullstack Developer" skill="HTML, JavaScript, SQL"/>
 
@@ -15,6 +17,7 @@ export default function Portfolio() {
                 <Project profileLink ="https://bespoke-capybara-7e98b6.netlify.app/"  itemNumber="item5" profession="Placeholder" skill="Placeholder..."/>
             </div>
         </section>
+      </div>
 
   );
 }
