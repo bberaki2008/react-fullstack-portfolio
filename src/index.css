@@ -150,6 +150,9 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-basis: 0 0 100%;
+  -ms-flex-align: start;
+  justify-content: right;
 }
 
 nav a {

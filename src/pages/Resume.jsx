@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <h2><button class="btn primary"><i class="fa fa-download"></i> Download my Resume</button></h2>
+      <h2><button className="btn btn-primary"><i class="fa fa-download"></i> Download my Resume</button></h2>
       <h2> Front-end Proficiencies</h2>
       <ul>
         <li>HTML</li>
