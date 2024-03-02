@@ -1,7 +1,7 @@
-export default function Portofolio() {
+export default function Portfolio() {
   return (
     <div>
-      <h1>Portofolio Page</h1>
+      <h1>Portfolio Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

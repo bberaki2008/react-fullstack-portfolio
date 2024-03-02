@@ -28,11 +28,11 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Portofolio"
+          to="/Portfolio"
           // Check to see if the currentPage is `Portofolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Portofolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Portofolio
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
