@@ -48,23 +48,23 @@ export default function Contact() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="container text-left mt-4">
       <h1>Contact</h1>
       {/* <h1>Hello {userName}</h1> */}
       <form className="form" onSubmit={handleFormSubmit}>
-      <div className="form-group">
-        <label htmlFor="userName">Name</label>
+      <div className="form-group" >
+        <label htmlFor="userName" className="form-check-label mt-2">Name</label>
         <input
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
           placeholder="username"
-          id="userName"
+          id="userName" className="form-control"
         />
         </div>
         <div className="form-group">
-       <label htmlFor="email">Email</label>
+       <label htmlFor="email" className="form-check-label mt-2">Email</label>
         <input
           value={email}
           name="email"
@@ -72,20 +72,22 @@ export default function Contact() {
           type="email"
           placeholder="email"
           id="email"
+          className="form-control"
         />
       </div>
       <div className="form-group">
-       <label htmlFor="message">Message</label>
+       <label htmlFor="message" className="form-check-label mt-2">Message</label>
         <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           id="message"
+          className="form-control"
         />
         </div>
       
-        <button type="submit">Submit</button>
+        <button type="submit" className="btn btn-primary mt-3">Submit</button>
       </form>
       {errorMessage && (
         <div>

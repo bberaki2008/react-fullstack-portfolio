@@ -2,7 +2,7 @@ export default function About() {
   return (
         <section class="page-section">
       <h1>About Me</h1>
-      <img src="../../public/img/avatar.jpg"/>
+      <img className="mt-5 "src="/img/avatar.jpg"/>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
