@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+        <section class="page-section">
       <h1>About Me</h1>
       <img src="../../public/img/avatar.jpg"/>
       <p>
@@ -11,6 +11,6 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+    </section>
   );
 }

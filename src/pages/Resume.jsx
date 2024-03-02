@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div>
+       <section class="page-section" id="work">
       <h1>Resume</h1>
       <h2><button className="btn btn-primary"><i class="fa fa-download"></i> Download my Resume</button></h2>
       <h2> Front-end Proficiencies</h2>
@@ -22,6 +22,6 @@ export default function Resume() {
         <li>REST</li>
         <li>GraphQL</li>
       </ul>
-    </div>
+  </section>
   );
 }
