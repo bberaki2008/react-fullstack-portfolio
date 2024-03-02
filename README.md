@@ -94,4 +94,4 @@ https://bespoke-capybara-7e98b6.netlify.app/
 
 ## APP Screenshot <a id="app-screenshot"></a>
 
-![Alt Site Screenshot of my portfolio](.//ScreenshotJate.png)
+![Alt Site Screenshot of my portfolio](./public/img/ScreenshotProfile.png/ScreenshotJate.png)
