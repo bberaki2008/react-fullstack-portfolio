@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <img href="../../public/img/avatar.jpg"/>
+      <img src="../../public/img/avatar.jpg"/>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
