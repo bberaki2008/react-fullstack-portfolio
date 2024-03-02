@@ -1,38 +1,18 @@
+import Project from '../components/Project';
 export default function Portfolio() {
   return (
         <section class="page-section" id="work">
       <h1>Portfolio</h1>
             <div class="flex-container">
-                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item1">
-                    <div>
-                        <h3>Fullstack Developer</h3>
-                        <span>HTML, JavaScript, SQL</span>
-                    </div>
-                </a>
-                <a class="flex-item" target="_blank" href="https://bberaki2008.github.io/bereketPortfolio/" id="item2">
-                    <div>
-                        <h3>Web Developer</h3>
-                        <span>HTML, CSS and JavaScript</span>
-                    </div>
-                </a>
-                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item3">
-                    <div>
-                        <h3>Data Analyst</h3>
-                        <span>Excel, Python</span>
-                    </div>
-                </a>
-                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item4">
-                    <div>
-                        <h3>Research Associate</h3>
-                        <span>Research, data collection</span>
-                    </div>
-                </a>
-                <a class="flex-item" href="https://bberaki2008.github.io/bereketPortfolio/" target="_blank" id="item5">
-                    <div>
-                        <h3>Placeholder</h3>
-                        <span>Placeholder...</span>
-                    </div>
-                </a>
+                <Project profileLink ="https://bberaki2008.github.io/bereketPortfolio/"  itemNumber="item1" profession="Fullstack Developer" skill="HTML, JavaScript, SQL"/>
+
+                <Project profileLink ="https://bberaki2008.github.io/bereketPortfolio/"  itemNumber="item2" profession="Web Developer" skill="HTML, CSS and JavaScript"/>
+
+                <Project profileLink ="https://bberaki2008.github.io/bereketPortfolio/"  itemNumber="item3" profession="Data Analyst" skill="Excel, Python"/>
+
+                <Project profileLink ="https://bberaki2008.github.io/bereketPortfolio/"  itemNumber="item4" profession="Research Associate" skill="Research, data collection"/>
+
+                <Project profileLink ="https://bberaki2008.github.io/bereketPortfolio/"  itemNumber="item5" profession="Placeholder" skill="Placeholder..."/>
             </div>
         </section>
 

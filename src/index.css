@@ -205,7 +205,7 @@ nav a:last-child {
 
 /* 1st child of the of the page-section class */
 .page-section>h2 {
-  flex: 0 0 23%;
+  flex: 0 0 100%;
   text-align: right;
   padding-right: 5px;
   border-right: 6px solid var(--dark-blue);
