@@ -8,7 +8,7 @@ export default function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
+  const [userName, setUserName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -21,7 +21,7 @@ export default function Contact() {
     // Based on the input type, we set the state of either email, username, and password
     if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'name') {
+    } else if (inputType === 'userName') {
       setname(inputValue);
     } else {
       setMessage(inputValue);
@@ -42,7 +42,7 @@ export default function Contact() {
 
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setName('');
+    setUserName('');
     setEmail('');
      setMessage('');
   };
@@ -53,14 +53,14 @@ export default function Contact() {
       {/* <h1>Hello {userName}</h1> */}
       <form className="form" onSubmit={handleFormSubmit}>
       <div className="form-group">
-        <label htmlFor="name">Name</label>
+        <label htmlFor="userName">Name</label>
         <input
-          value={name}
-          name="name"
+          value={userName}
+          name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
-          id="name"
+          placeholder="username"
+          id="userName"
         />
         </div>
         <div className="form-group">
