@@ -43,14 +43,13 @@ h6 {
 
 /* avatar image property */
 .fa-user {
-
   padding: 40px 0 0;
   margin-left:-170px;
-
-
-
 }
 
+p a {
+  text-decoration: none;
+}
 /* responsive layout that adapts to my viewport */
 nav {
   display: flex;
